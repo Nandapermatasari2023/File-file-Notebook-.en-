@@ -1,0 +1,285 @@
+﻿% * Aplikasi Komputer
+% 
+% Nama  : Nanda Permatasari 
+%% NIM   : 23030630007
+%% Kelas : Matematika B 
+% 
+% ----
+%% * KB Pekan 3-4: Penggunaan Software EMT untuk Aljabar
+% 
+% ----
+%% 1. Melakukan operasi bentuk-bentuk aljabar (menjabarkan,
+% menyederhanakan, memfaktorkan, dll.)
+%% ----
+% 
+% ~ Menjabarkan bentuk aljabar :
+%% latex: (3x^5-y^3)(-2x^6+y^2)
+% %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-001.png
+% // latex: (3x^5-y^3)(-2x^6+y^2)
+%% Penyelesaian :
+>$&showev('expand ((3*x^5-y^3)*(-2*x^6+y^2)))
+ %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-002.png
+% // latex: {\it expand}\left(\left(y^2-2\,x^6\right)\,\left(3\,x^5-y^3\right)  \right)=-y^5+2\,x^6\,y^3+3\,x^5\,y^2-6\,x^{11}
+% 
+% 
+% ~ Menyederhanakan bentuk aljabar :
+%% latex: 10x^{-5}y^2 \times -5x^3y^{-4}
+% %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-003.png
+% // latex: 10x^{-5}y^2 \times -5x^3y^{-4}
+%% Penyelesaian :
+>$&10*x^-5*y^2*-5*x^3*y^-4
+ %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-004.png
+% // latex: -\frac{50}{x^2\,y^2}
+% 
+% 
+% ~ Memfaktorkan bentuk aljabar :
+%% latex: x^2-5x+6
+% %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-005.png
+% // latex: x^2-5x+6
+%% Penyelesaian :
+>$&factor(x^2-5*x+6)
+ %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-006.png
+% // latex: \left(x-3\right)\,\left(x-2\right)
+>
+% ---
+%% 2. Melakukan perhitungan dengan berbagai operasi dan fungsi matematika
+%% ---
+% 
+% ~ Pengurangan dan Penambahan
+%% latex: (10x+6y+3z)-(3x-5y+6z)+(2x-3y-z)
+% %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-007.png
+% // latex: (10x+6y+3z)-(3x-5y+6z)+(2x-3y-z)
+%% Penyelesaian :
+>$&(10*x+6*y+3*z)-(3*x-5*y+6*z)+(2*x-3*y-z)
+ %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-008.png
+% // latex: -4\,z+8\,y+9\,x
+% 
+% ~ Perkalian dan Pembagian
+%% latex: \frac {4(12-8)^2-2\cdot5+3\cdot6}{4^2+20^0}
+% %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-009.png
+% // latex: \frac {4(12-8)^2-2\cdot5+3\cdot6}{4^2+20^0}
+%% Penyelesaian :
+>$&(4*(12-8)^2-2*5+3*5)/(4^2+20^0)
+ %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-010.png
+% // latex: \frac{69}{17}
+% 
+% ~Fungsi Matematika
+%% latex: \frac {x^2+6}{3x-2}
+% %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-011.png
+% // latex: \frac {x^2+6}{3x-2}
+%% Penyelesaian :
+>$&(x^2+6)/(3*x-2)
+ %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-012.png
+% // latex: \frac{x^2+6}{3\,x-2}
+>&"v := 6; v^2"
+
+                                  36
+
+>
+% ---
+%% 3. Melakukan perhitungan menggunakan bilangan kompleks
+%% ---
+% 
+% ~ Pengurangan Bilangan Kompleks
+%% latex: (-10+5a)-(4+2a)
+% %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-013.png
+% // latex: (-10+5a)-(4+2a)
+%% Penyelesaian :
+>$&(-10+5*a)-(4+2*a)
+ %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-014.png
+% // latex: 3\,a-14
+% 
+% ~ Penjumlahan Bilangan Kompleks
+%% latex: (-10+5a)+(4+2a)
+% %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-015.png
+% // latex: (-10+5a)+(4+2a)
+%% Penyelesaian :
+>$&(-10+5*a)+(4+2*a)
+ %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-016.png
+% // latex: 7\,a-6
+>
+% ---
+%% 4. Melakukan perhitungan menggunakan fungsi-fungsi buatan sendiri
+%% ---
+% 
+% Diberikan matriks
+%% latex: A = [5,2;8,3]
+% %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-017.png
+% // latex: A = [5,2;8,3]
+% 
+% ~ Hasil invers dari matriks A
+%% latex: A = [5,2;8,3]
+% %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-018.png
+% // latex: A = [5,2;8,3]
+%% Penyelesaian :
+>A=[5,2;8,3]
+            5             2 
+            8             3 
+>b=[8,3]
+[8,  3]
+>b'
+            8 
+            3 
+>inv(A)
+           -3             2 
+            8            -5 
+% 
+% ~ Hasil perkalian matriks A.inv(A)
+%% latex: A = [5,2;8,3]
+% %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-019.png
+% // latex: A = [5,2;8,3]
+%% Penyelesaian :
+>A=[5,2;8,3]
+            5             2 
+            8             3 
+>b=[8,3]
+[8,  3]
+>b'
+            8 
+            3 
+>inv(A)
+           -3             2 
+            8            -5 
+>A.inv(A)
+            1             0 
+            0             1 
+% ---
+%% 5. Menyelesaikan persamaan dan sistem persamaan
+%% ---
+% 
+% ~ Soal 1
+%% latex: 250 = x(x-3)
+% %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-020.png
+% // latex: 250 = x(x-3)
+%% Penyelesaian :
+>$solve(250=x(x-3))
+ %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-021.png
+% // latex: \left[ x\left(x-3\right)=250 \right] 
+% 
+% ~ Soal 2
+%% latex: 10a^2+4=5a-2
+% %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-022.png
+% // latex: 10a^2+4=5a-2
+%% Penyelesaian :
+>$solve(10*a^2+4=5*a-2)
+ %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-023.png
+% // latex: \left[ a=\frac{5-\sqrt{215}\,i}{20} , a=\frac{\sqrt{215}\,i+5}{20}   \right] 
+% 
+% ~ Soal 3
+%% latex: 20n^2-10=n
+% %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-024.png
+% // latex: 20n^2-10=n
+%% Penyelesaian :
+>$solve(20*n^2-10=n)
+ %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-025.png
+% // latex: \left[ n=\frac{1-3\,\sqrt{89}}{40} , n=\frac{3\,\sqrt{89}+1}{40}   \right] 
+% ---
+%% 6.Menyelesaikan pertidaksamaan dan sistem pertidaksamaan
+%% ---
+% 
+% Soal :
+%% latex: [x^2-2>0],[x])//x^2-2>0
+% %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-026.png
+% // latex: [x^2-2>0],[x])//x^2-2>0
+%% Penyelesaian :
+>&load(fourier_elim)
+
+       C:/Program Files/Euler x64/maxima/share/maxima/5.35.1/share/fo\
+urier_elim/fourier_elim.lisp
+
+>$&fourier_elim([x^2-2>0],[x])//x^2-2>0
+ %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-027.png
+% // latex: \left[ x^2-2>0 \right] 
+>$&fourier_elim([x^2-2<0],[x])//x^2-2<0
+ %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-028.png
+% // latex: \left[ 2-x^2>0 \right] 
+>$&fourier_elim([x^2-2#0],[x])//x^2-2<>0
+ %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-029.png
+% // latex: \left[ 2-x^2>0 \right] \lor \left[ x^2-2>0 \right] 
+>$&fourier_elim([x#3],[x])
+ %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-030.png
+% // latex: \left[ x<3 \right] \lor \left[ 3<x \right] 
+>
+% ---
+%% 7. Melakukan manipuasi dan perhitungan menggunakan matriks dan vektor
+%% ---
+% 
+% Vektor dan matriks diinput di dalam kurung kotak, elemen dipisahkan
+% oleh coma, baris dipisahkan oleh semicolom.
+% 
+% Diberikan matriks
+%% latex: A = [2,4;3,5]
+% %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-031.png
+% // latex: A = [2,4;3,5]
+%% latex: B = [1,3;4,8]
+% %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-032.png
+% // latex: B = [1,3;4,8]
+>A=[2,4;3,5]
+            2             4 
+            3             5 
+>A'
+            2             3 
+            4             5 
+>inv(A)
+         -2.5             2 
+          1.5            -1 
+>B=[1,3;4,8]
+            1             3 
+            4             8 
+>A.B
+           18            38 
+           23            49 
+>power (B,4)
+         1141          2403 
+         3204          6748 
+>b^2 // perpangkatan elemen-elemen matriks/vektor
+[64,  9]
+>2*A
+            4             8 
+            6            10 
+>[3,4]*A
+            6            16 
+            9            20 
+>A*[4,2]
+            8             8 
+           12            10 
+>(3:4)*(3:4)' // hasil kali elemen-elemen vektor baris dan vektor kolom
+            9            12 
+           12            16 
+>(3:4).(3:4)' // hasil kali vektor baris dan vektor kolom
+25
+>
+           
+% ---
+%% 8. Menggunakan aljabar untuk menyelesaikan masalah sehari-hari atau
+% dalam matematika dan bidang lain.
+%% ---
+% 
+% Soal :
+%% Seorang tukang kebun ingin menanam pohon mangga di sekeliling
+% lahannya. Lahan yang dimiliki berbentuk persegi panjang dengan
+% panjangnya adalah 4 kali lebarnya dan luasnya adalah 36 meter. Jika
+% tukang kebun tersebut hanya memiliki 6 pohon mangga, berapakah jarak
+% antar pohon mangga tersebut?
+>$&(expand(4*x*x))
+ %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-033.png
+% // latex: 4\,x^2
+% latex: 4x^2=36
+>36/4
+9
+>$&sqrt(9)
+ %image% Nanda Permatasari_23030630007_Matematika B_Latihan soal Aljabar_Tugas pekan 3-4-034.png
+% // latex: 3
+% Jadi, kita dapatkan x=3, sehingga lebarnya adalah 3. Karena panjang
+% adalah 4 kali lebarnya, maka panjang = 12 meter.
+% 
+% Langkah selanjutnya menghitung keliling dengan rumus 
+%% latex: Keliling persegi panjang = 2\times(panjang+lebar)
+>2*(12+3)
+30
+% Jadi, kelilingnya adalah 30 meter. Karena petani hanya memiliki 6
+% pohon mangga, maka jarak antar pohon mangga adalah 
+>30/6
+5
+% Jadi, diperoleh jarak antar pohon mangga adalah 5 meter.
+>
